@@ -27,7 +27,7 @@ Before the algorithm gets to point 7, all the previous points (nodes) are fine. 
 However, the algorithm won't remove those points until it sees enough evidence to determine the trend isn't changing. 
 For instance, it would wait until node 12 in the example before cleaning up the earlier points.
 
-What It Looks Like:
+## What It Looks Like:
 Here’s how a normal peak and trough finder would handle this market data:
 ![image](bprocess.png)
 
